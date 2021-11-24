@@ -23,7 +23,6 @@ class TieneSucursalController extends Controller
     {
         $tieneSuc = DB::table('productos')->leftJoin('tiene-surcursal', 'productos.id', '=', 'tiene-surcursal.products_id')
         ->get();
-        // $tieneSuc = TieneSucursal::where('sucursal_id',$sucursal->id)->first();
         return $tieneSuc;
     }
 
