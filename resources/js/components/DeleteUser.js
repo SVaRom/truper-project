@@ -78,11 +78,9 @@ const DeleteUser = () => {
                 </center>
             </Alert>
             <Container>
-                <center>
-                    <br />
-                    <h2>Una lastima que quieras eliminar tu cuenta...</h2>
-                </center>
-                <hr />
+                <br />
+                <br />
+                <h1>Una lastima que quieras eliminar tu cuenta...</h1>
                 <Form onSubmit={handleSubmit}>
                     <Form.Group className="mb-3" controlId="formBasicPassword">
                         <Form.Label>Confirma tu correo electrónico</Form.Label>
