@@ -63,6 +63,7 @@ const LoginForm = () => {
                         })
                         .catch((error) => {
                             console.log(error);
+                            setShow(true);
                         });
                 } else if (
                     formValue.password == "root" &&
